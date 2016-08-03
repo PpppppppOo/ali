@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* .topbox .navout {
+  margin: 0 auto;
+  width: 1224px;
+  height: 500px;
+  background-color: #f00;
+  z-index: 2;
+}
+* .topbox .navout >a {
+  float: left;
+  margin-top: 20px;
+  margin-right: 42px;
+}
+* .topbox .navout .ula {
+  float: left;
+}
+* .topbox .navout .ula li {
+  list-style-type: none;
+  float: left;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  font-family: Microsoft Yahei;
+  line-height: 90px;
+  position: relative;
+}
+* .topbox .navout .ula li:hover .ulaoutbox {
+  display: block;
+}
+* .topbox .navout .ula li:hover {
+  background-color: #0096bb;
+}
+* .topbox .navout .ula li >a {
+  padding: 0px 20px;
+}
+* .topbox .navout .ula .a1 .ulaoutbox {
+  position: absolute;
+  width: 928px;
+  margin: 0 auto;
+  color: #000;
+  background-color: #fff;
+  height: 200px;
+  display: none;
+}
+* .topbox .navout .ula .a1 .ulaoutbox .ulabox {
+  width: 878px;
+  margin: 25px 25px 10px;
+}
+* .topbox .navout .ula .a1 .ulaoutbox .ulabox .box {
+  width: 368px;
+  line-height: 20px;
+  float: left;
+  margin-bottom: 26px;
+}
+* .topbox .navout .ula .a1 .ulaoutbox .ulabox .box a {
+  display: block;
+  font-size: 15px;
+  line-height: 15px;
+}
+* .topbox .navout .ula .a1 .ulaoutbox .ulabox .box:hover {
+  color: #0096bb;
+}
+* .topbox .navout .ula .a1 .ulaoutbox .ulabox .box span {
+  font-size: 13px;
+  color: #808080;
+}
+* .topbox .navout .ulb {
+  float: right;
+  color: #000;
+}
+* .topbox .navout .ulb li {
+  font-size: 14px;
+  list-style-type: none;
+  float: left;
+  color: #fff;
+  font-weight: bold;
+  font-family: Microsoft Yahei;
+  line-height: 90px;
+  position: relative;
+}
+* .topbox .navout .ulb li >a {
+  padding: 0px 20px;
+}
+* .topbox .navout .ulb li img {
+  margin-top: 22px;
+}
